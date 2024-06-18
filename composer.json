@@ -1,0 +1,42 @@
+{
+    "name": "formassembly/integration-salesforce",
+    "description": "Salesforce Connector",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "Proprietary",
+    "authors": [
+        {
+            "name": "FormAssembly, inc."
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Connector\\Integrations\\Salesforce\\": "src",
+            "Tests\\": "tests"
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@git.formassembly.com:Formassembly/connector-core.git"
+        }
+    ],
+    "scripts": {
+        "post-create-project-cmd": "\\Connector\\Tasks\\Composer::postCreateProjectCmd",
+        "tests": "vendor/bin/phpunit --display-warnings --display-errors --display-notices --display-deprecations",
+        "test-coverage": [
+            "@putenv XDEBUG_MODE=coverage",
+            "vendor/bin/phpunit --display-warnings --display-errors --display-notices --display-deprecations"
+        ]
+    },
+    "require": {
+        "php": ">=8.1",
+        "formassembly/connector-core": "dev-abstract-database as 1.0.1",
+        "guzzlehttp/guzzle": "^7.8",
+        "league/oauth2-client": "^2.7"
+    },
+    "require-dev": {
+        "monolog/monolog": "^3.4",
+        "phpunit/phpunit": "^10.2"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "graphs": [
+        {
+            "graphId": "0",
+            "graphResponse": {
+                "compositeResponse": [
+                    {
+                        "body": [
+                            {
+                                "message": "Required fields are missing: [Company]",
+                                "errorCode": "REQUIRED_FIELD_MISSING",
+                                "fields": [
+                                    "Company"
+                                ]
+                            }
+                        ],
+                        "httpHeaders": {},
+                        "httpStatusCode": 400,
+                        "referenceId": "fa0"
+                    }
+                ]
+            },
+            "isSuccessful": false
+        }
+    ]
+}

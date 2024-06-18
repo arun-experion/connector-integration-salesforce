@@ -1,0 +1,36 @@
+{
+    "graphs": [
+        {
+            "graphId": "0",
+            "graphResponse": {
+                "compositeResponse": [
+                    {
+                        "body": {
+                            "id": "0013y00001fTibkAAC",
+                            "success": true,
+                            "errors": []
+                        },
+                        "httpHeaders": {
+                            "Location": "\/services\/data\/v60.0\/sobjects\/Account\/0013y00001fTibkAAC"
+                        },
+                        "httpStatusCode": 201,
+                        "referenceId": "fa0"
+                    },
+                    {
+                        "body": {
+                            "id": "0033y00002Vx1Q1AAJ",
+                            "success": true,
+                            "errors": []
+                        },
+                        "httpHeaders": {
+                            "Location": "\/services\/data\/v60.0\/sobjects\/Contact\/0033y00002Vx1Q1AAJ"
+                        },
+                        "httpStatusCode": 201,
+                        "referenceId": "fa1"
+                    }
+                ]
+            },
+            "isSuccessful": true
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "graphs": [
+        {
+            "graphId": "0",
+            "graphResponse": {
+                "compositeResponse": [
+                    {
+                        "body": {
+                            "id": "00Q3y00001QraiXEAR",
+                            "success": true,
+                            "errors": []
+                        },
+                        "httpHeaders": {
+                            "Location": "\/services\/data\/v60.0\/sobjects\/Lead\/00Q3y00001QraiXEAR"
+                        },
+                        "httpStatusCode": 201,
+                        "referenceId": "fa0"
+                    }
+                ]
+            },
+            "isSuccessful": true
+        }
+    ]
+}
